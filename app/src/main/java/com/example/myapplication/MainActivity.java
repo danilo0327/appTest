@@ -17,5 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        et1 = (EditText)findViewById(R.id.TextNumber1);
+        et2 = (EditText)findViewById(R.id.TextNumber2);
+        tv1 = (TextView) findViewById(R.id.textViewResultado);
+
     }
 }
